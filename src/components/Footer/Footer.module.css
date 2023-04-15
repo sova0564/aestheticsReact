@@ -1,0 +1,52 @@
+.wrap {
+  display: flex;
+  flex-direction: row;
+  width: 1075px;
+  margin: 0 auto;
+}
+
+.wrapContactIcons {
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+}
+
+.listStyleIcon {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+  flex-direction: row;
+  padding: 0;
+}
+
+.wrapFooterLinks {
+  background: #4b6049;
+}
+
+.listStyle {
+  display: flex;
+  list-style-type: none;
+  gap: 3px;
+  padding: 0;
+  flex-direction: column;
+}
+
+.listItem {
+  font-family: "Poiret One", cursive;
+  color: #fffbf5;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.listItemLinks:hover {
+  border-bottom: 0.5px solid #fffbf5;
+}
+
+.bottomFooterLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1075px;
+}

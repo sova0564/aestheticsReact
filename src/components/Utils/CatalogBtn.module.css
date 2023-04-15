@@ -1,0 +1,40 @@
+.button {
+  align-items: center;
+  background: #4b6049;
+  color: #fffbf5;
+  display: flex;
+  font-size: 26px;
+  font-weight: 400;
+  height: 59px;
+  justify-content: center;
+  margin: 12px 12px 0 0;
+  position: relative;
+  transition-duration: 0.6s;
+  transition-property: margin;
+  width: 219px;
+  text-decoration: none;
+}
+
+.button::after {
+  border: 1.5px solid #484847;
+  content: "";
+  height: 56px;
+  margin: 0 0 12px 12px;
+  position: absolute;
+  transition-duration: 0.7s;
+  transition-property: margin;
+  width: 216px;
+  z-index: -1;
+}
+
+.button:hover {
+  margin: 0 0 12px 12px;
+  transition-duration: 0.6s;
+  transition-property: margin;
+}
+
+.button:hover::after {
+  margin: 0 0 0 0;
+  transition-duration: 0.7s;
+  transition-property: margin;
+}

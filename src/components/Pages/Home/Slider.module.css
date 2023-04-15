@@ -1,0 +1,70 @@
+.title {
+  font-family: "Poiret One";
+  font-size: 60px;
+  line-height: 70px;
+  color: #484847;
+}
+
+.description {
+  font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  width: 450px;
+  color: #484847;
+  right: 0;
+  position: absolute;
+  text-align: left;
+  margin: 0;
+}
+
+.sliderImg {
+  width: 100%;
+}
+
+.textSlider {
+  position: absolute;
+  top: 10px;
+  margin-left: 125px;
+}
+
+.customDots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0;
+}
+
+.customDots li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 1px solid #4b6049;
+  border-radius: 100%;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.customDots li button {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+.customDots li button:hover,
+.customDots li button:focus {
+  background-color: #4b6049;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #4b6049;
+  border-radius: 100%;
+}
