@@ -12,21 +12,44 @@ import DeliveryAndPayment from "./components/Pages/DeliveryAndPayment/DeliveryAn
 import Error404 from "./components/Pages/Error404/Error404";
 import Home from "./components/Pages/Home/Home";
 import Footer from "./components/Footer/Footer";
+import ProductCard from "./components/Pages/Product/ProductCard";
 
-function App() {
+function App(props) {
   return (
     <BrowserRouter>
       <div className="App">
         <Header />
         <div>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/catalog" element={<Catalog />} />
             <Route
-              path="/deliveryAndPayment"
-              element={<DeliveryAndPayment />}
+              path="/"
+              element={<Home blogMainSection={props.state.blogMainSection} />}
             />
-            <Route path="/blog" element={<Blog />} />
+            <Route
+              path="/catalog"
+              element={
+                <Catalog
+                  products={props.state.products}
+                  accordionType={props.state.accordionType}
+                />
+              }
+            />
+            <Route
+              path="/product/:id"
+              element={<ProductCard products={props.state.products} />}
+            />
+            <Route
+              path="/delivery"
+              element={
+                <DeliveryAndPayment
+                  deliverySection={props.state.deliverySection}
+                />
+              }
+            />
+            <Route
+              path="/blog/:id"
+              element={<Blog blogMainSection={props.state.blogMainSection} />}
+            />
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/account" element={<Account />} />
             <Route path="/checkout" element={<Checkout />} />

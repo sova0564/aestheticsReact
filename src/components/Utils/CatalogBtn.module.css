@@ -38,3 +38,44 @@
   transition-duration: 0.7s;
   transition-property: margin;
 }
+
+.buttonSmall {
+  font-size: 14px;
+  width: 99px;
+  height: 26px;
+  margin: 6px 6px 0 0;
+  align-items: center;
+  background: #4b6049;
+  color: #fffbf5;
+  display: flex;
+  font-weight: 400;
+  justify-content: center;
+  position: relative;
+  transition-duration: 0.6s;
+  transition-property: margin;
+  text-decoration: none;
+}
+
+.buttonSmall::after {
+  border: 1.5px solid #484847;
+  content: "";
+  height: 26px;
+  margin: 0 0 6px 6px;
+  position: absolute;
+  transition-duration: 0.7s;
+  transition-property: margin;
+  width: 99px;
+  z-index: -1;
+}
+
+.buttonSmall:hover {
+  margin: 0 0 6px 6px;
+  transition-duration: 0.6s;
+  transition-property: margin;
+}
+
+.buttonSmall:hover::after {
+  margin: 0 0 0 0;
+  transition-duration: 0.7s;
+  transition-property: margin;
+}

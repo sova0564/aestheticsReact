@@ -1,0 +1,72 @@
+.wrapCatalog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.wrapProducts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 840px;
+}
+
+.wrapProduct {
+  max-width: 234px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.wrapBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #484847;
+  text-align: start;
+  margin: 13px 0 0 0;
+}
+
+.price {
+  font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #484847;
+  text-align: end;
+  margin: 0 0 13px 0;
+}
+
+.favoriteIcon {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.wrapImage {
+  width: 234px;
+  height: 233px;
+}
+
+.image {
+  width: 100%;
+}
+
+.sorting {
+  text-align: start;
+  width: 100%;
+  padding: 0 0 23px 12px;
+  font-weight: 400;
+  font-size: 20px;
+}

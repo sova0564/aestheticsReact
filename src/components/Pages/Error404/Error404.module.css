@@ -1,0 +1,12 @@
+.wrap {
+  position: relative;
+  top: -144px;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+}

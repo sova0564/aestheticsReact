@@ -14,9 +14,11 @@ export default class SlickSlider extends Component {
         dots: true,
         dotsClass: `${style.customDots}`,
       infinite: true,
-      speed: 500,
+      speed: 1000,
       slidesToShow: 1,
       slidesToScroll: 1,
+      autoplay: false,
+      autoplaySpeed: 4000,
       prevArrow: <></>, // пустой фрагмент вместо prevArrow
         nextArrow: <></>,
     customPaging: () => (

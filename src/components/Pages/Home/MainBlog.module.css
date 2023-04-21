@@ -1,0 +1,48 @@
+.imageLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imageRight {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 20px;
+}
+
+.title {
+  font-family: "Mukta", sans-serif;
+  font-size: 40px;
+  line-height: 49px;
+  margin: 0;
+  padding: 0;
+}
+
+.description {
+  font-family: "Mukta", sans-serif;
+  font-size: 25px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  height: 347px;
+  justify-content: space-between;
+  width: 522px;
+  margin: 0 20px 120px 20px;
+  text-align: left;
+}
+
+.image {
+  width: 522px;
+  height: 347px;
+}
+
+.link {
+  text-decoration: none;
+}
