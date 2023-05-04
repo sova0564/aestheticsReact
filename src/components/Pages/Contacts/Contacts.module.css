@@ -1,0 +1,89 @@
+.background {
+  position: relative;
+  margin: 20px 0;
+}
+
+.wrap {
+  position: absolute;
+  width: 582px;
+  height: 390px;
+  left: 20px;
+  top: 110px;
+  background: rgba(75, 96, 73, 0.3);
+  backdrop-filter: blur(7.5px);
+  padding: 20px;
+}
+
+.title {
+  font-family: "Poiret One", cursive;
+  color: #fffbf5;
+  font-size: 60px;
+  line-height: 70px;
+  margin: 130px 0 0 0;
+}
+
+.subtitle {
+  font-family: "Poiret One", cursive;
+  color: #fffbf5;
+  font-size: 40px;
+  line-height: 47px;
+  margin: 0;
+}
+
+.list {
+  list-style-type: none;
+  text-align: left;
+  color: #fffbf5;
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  padding: 0;
+}
+
+.list li:first-child {
+  font-size: 26px;
+}
+.list li:nth-child(3) {
+  margin-bottom: 30px;
+}
+
+.whiteLine {
+  width: 490px;
+  height: 0px;
+  border: 1px solid #fffbf5;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.input {
+  width: 276px;
+  height: 50px;
+  background: none;
+  padding-left: 15px;
+  border: 1px solid #fffbf5;
+  margin-bottom: 5px;
+  caret-color: #b2b2b2;
+  color: #fffbf5;
+  font-size: 20px;
+}
+
+.input::placeholder {
+  color: #b2b2b2;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.input:focus::placeholder {
+  color: transparent;
+}
+
+.wrapFromAndBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}

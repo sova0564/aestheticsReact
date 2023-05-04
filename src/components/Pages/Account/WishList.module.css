@@ -1,0 +1,67 @@
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 0.5px solid #4b6049;
+  width: 860px;
+  margin: 10px 0 0 0;
+}
+
+.wrapScroll {
+  overflow-y: scroll;
+  width: 930px;
+  height: 300px;
+  margin: 75px 0;
+}
+
+.wrapImgAndBtn {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.wrapBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+}
+
+.imgStar {
+  width: 20px;
+  height: 20px;
+}
+
+.links {
+  font-family: "Poiret One", cursive;
+  font-size: 18px;
+  line-height: 150%;
+  color: #484847;
+  margin: 0 0 5px 0;
+}
+
+.title {
+  width: 200px;
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  line-height: 24px;
+  color: #484847;
+  margin: 0;
+  font-weight: bold;
+}
+
+.text {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  line-height: 24px;
+  color: #484847;
+  margin: 0;
+  font-weight: bold;
+}

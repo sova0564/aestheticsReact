@@ -1,0 +1,89 @@
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form {
+  text-align: left;
+}
+.title {
+  font-size: 20px;
+  line-height: 24px;
+  color: #484847;
+  font-family: "Poiret One", cursive;
+  margin: 0 0 10px 0;
+  user-select: none;
+}
+
+.input {
+  font-size: 20px;
+  line-height: 150%;
+  width: 370px;
+  height: 50px;
+  border: 0.5px solid #000000;
+  color: #b3b3b2;
+  margin-bottom: 10px;
+  font-family: "Poiret One", cursive;
+}
+
+.inputSmall {
+  font-size: 20px;
+  line-height: 150%;
+  width: 100px;
+  height: 50px;
+  border: 0.5px solid #000000;
+  color: #b3b3b2;
+  margin: 0 30px 10px 0;
+  font-family: "Poiret One", cursive;
+}
+
+.wrapInform {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+}
+
+.wrapText {
+  text-align: left;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Poiret One", cursive;
+  color: #484847;
+}
+
+.wrapText p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.ellipse {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #4b6049;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 0 0;
+}
+
+.ellipseNum {
+  font-family: "Poiret One", cursive;
+  font-size: 40px;
+  line-height: 49px;
+  color: #ffffff;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.button p {
+  color: #484847;
+  text-decoration-line: underline;
+  font-weight: lighter;
+}

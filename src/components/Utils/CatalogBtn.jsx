@@ -3,7 +3,7 @@ import style from './CatalogBtn.module.css';
 
 function CatalogBtn(props) {
     return (<div>
-        <NavLink to='/catalog' className={`${style[props.className]}`}>{props.description}</NavLink>
+        <NavLink to={props.to} onClick={props.onClick} className={`${style[props.className]}`}>{props.description}</NavLink>
     </div>);
 }
 

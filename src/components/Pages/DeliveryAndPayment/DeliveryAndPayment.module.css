@@ -25,6 +25,7 @@
   color: #fffbf5;
   margin: 0;
   padding: 40px 0 0 40px;
+  user-select: none;
 }
 
 .subtitle {
@@ -35,6 +36,7 @@
   color: #fffbf5;
   padding-left: 40px;
   margin: 0;
+  user-select: none;
 }
 
 .wrapDesc {

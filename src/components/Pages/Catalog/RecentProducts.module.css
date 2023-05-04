@@ -1,0 +1,46 @@
+.title {
+  font-family: "Poiret One", cursive;
+  font-size: 40px;
+  line-height: 49px;
+  color: #484847;
+  text-align: left;
+  width: 100%;
+  user-select: none;
+}
+
+.wrapProducts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wrapProduct {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.image {
+  width: 234px;
+  height: 233px;
+}
+
+.text {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  line-height: 150%;
+  color: #484847;
+  text-align: left;
+  margin: 0;
+  height: 60px;
+}
+
+.price {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  line-height: 150%;
+  color: #484847;
+  text-align: right;
+  margin: 0;
+}

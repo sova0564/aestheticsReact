@@ -1,0 +1,47 @@
+.wrapColmn {
+  display: flex;
+  flex-direction: column;
+  width: 555px;
+}
+
+.wrapRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wrapComposition {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 90px;
+}
+
+.image {
+  width: 460px;
+  height: 410px;
+}
+
+.title {
+  font-size: 26px;
+  color: #484847;
+  font-family: "Poiret One", cursive;
+  text-align: left;
+  user-select: none;
+}
+
+.desc {
+  font-size: 20px;
+  color: #484847;
+  font-family: "Poiret One", cursive;
+  text-align: left;
+}
+
+.input {
+  width: 60px;
+  height: 50px;
+  font-size: 26px;
+  font-family: "Poiret One", cursive;
+  padding: 0 15px;
+}

@@ -15,7 +15,7 @@ function Product(props) {
     };
     return (<div key={props.id} className={style.wrapProduct}>
         <div className={style.wrapImage}>
-            <img src={favoriteIcon} className={style.favoriteIcon}  onClick={handleFavoriteClick}/>
+            <img src={favoriteIcon} className={style.favoriteIcon}  onClick={handleFavoriteClick} alt='favorite'/>
             <img src={props.image} alt="Product" className={style.image} />
         </div>
         <div>

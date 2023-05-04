@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  text-align: start;
+}
+
+.label {
+  font-family: "Poiret One", cursive;
+  font-size: 22px;
+  line-height: 150%;
+  color: #484847;
+}
+
+.input {
+  font-family: "Poiret One", cursive;
+  font-size: 22px;
+  line-height: 150%;
+  color: #484847;
+  width: 368px;
+  height: 50px;
+  border: 0.5px solid #484847;
+  margin-bottom: 30px;
+}
+
+.input:last-of-type {
+  margin-bottom: 60px;
+}

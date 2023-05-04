@@ -1,0 +1,97 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapOrders {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px 0 60px 0;
+  gap: 60px;
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: 340px;
+}
+
+.wrapOrder {
+  margin: 10px 0 20px 0;
+}
+
+.wrapProduct {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  width: 425px;
+  height: 80px;
+  border-top: 0.5px solid #4b6049;
+  border-bottom: 0.5px solid #4b6049;
+  padding: 10px 20px 10px 0;
+  margin: 10px 0;
+}
+
+.wrapText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.text {
+  font-family: "Poiret One", cursive;
+  margin: 0;
+  color: #000000;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: left;
+}
+
+.text:last-of-type {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.wrapImageAndText {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+}
+
+.imgStar {
+  width: 20px;
+  height: 20px;
+}
+
+.title {
+  width: 200px;
+  margin: 0;
+}
+
+.wrapTextProduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.textProduct {
+  margin: 0;
+}
+
+.wrapButton {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}

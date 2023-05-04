@@ -52,6 +52,7 @@
   position: absolute;
   right: 12px;
   top: 12px;
+  cursor: pointer;
 }
 
 .wrapImage {
@@ -69,4 +70,47 @@
   padding: 0 0 23px 12px;
   font-weight: 400;
   font-size: 20px;
+}
+
+.titleSorting {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #484847;
+  margin: 0 0 5px 0;
+  user-select: none;
+  cursor: pointer;
+}
+
+.listSorting {
+  z-index: 2;
+  position: absolute;
+  width: 250px;
+  height: 140px;
+  background: #ffffff;
+  border: 0.5px solid #484847;
+  list-style-type: none;
+  font-size: 20px;
+  color: #484847;
+  font-family: "Poiret One", cursive;
+  line-height: 150%;
+  padding: 10px;
+  margin: 0;
+  user-select: none;
+  cursor: pointer;
+}
+
+.itemSorting:hover {
+  text-decoration-line: underline;
+}
+
+.buttonPosition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recentProducts {
+  margin-bottom: 90px;
 }

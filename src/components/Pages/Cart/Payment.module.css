@@ -1,0 +1,32 @@
+.wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wrapList {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 35px 0;
+  padding-top: 15px;
+}
+
+.wrapDelivery {
+  margin-bottom: 20px;
+}

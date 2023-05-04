@@ -3,22 +3,33 @@ import CatalogBtn from "../../Utils/CatalogBtn";
 import MainSection from "./MainSection";
 import Slider from "./Slider";
 import MainBlog from './MainBlog';
-import MoreBtn from '../../Utils/MoreBtn';
-
+import CatalogMoreBtn from '../../Utils/CatalogMoreBtn';
+import { useState } from 'react';
 
 
 function Home(props) {
+
+    const [numBlogs, setNumBlogs] = useState(3);
+  const allBlogsDisplayed = numBlogs >= props.blogMainSection.length;
+
+  const handleMoreBlogsClick = () => {
+    setNumBlogs(numBlogs + 1);
+  };
+
+  const displayedBlogs = props.blogMainSection.slice(0, numBlogs);
     
     return <div>
         <MainSection />
         <Slider />
+            <div className={style.MainButton}>
+                <CatalogBtn to='/catalog' description='Каталог' className='button' />
+            </div>
+        <MainBlog blogMainSection={displayedBlogs} />
+        {!allBlogsDisplayed && (
         <div className={style.MainButton}>
-             <CatalogBtn description='Каталог' className='button'/>
-        </div>
-        <MainBlog blogMainSection={props.blogMainSection} />
-        <div className={style.MainButton}>
-            <MoreBtn description='Показати ще' className='button'/>
-        </div>
+            <CatalogMoreBtn  description='Показати ще' onClick={handleMoreBlogsClick}/>
+            </div>
+            )}
     </div>
 }
      

@@ -41,7 +41,7 @@ function UserLinks() {
     <div>
       <ul className={style.listStyle}>
         <li className={style.iconSize}>
-          <Link to="/home">
+          <Link to="/account">
             <img
               src={cabinetIcon}
               alt="Cabinet"
@@ -51,7 +51,7 @@ function UserLinks() {
           </Link>
         </li>
         <li className={style.iconSize}>
-          <Link to="/home">
+          <Link to="/account/wishList">
             <img
               src={favoriteIcon}
               alt="Favorite"
@@ -61,7 +61,7 @@ function UserLinks() {
           </Link>
         </li>
         <li className={style.iconSize}>
-          <Link to="/home">
+          <Link to="/cart">
             <img
               src={basketIcon}
               alt="Basket"

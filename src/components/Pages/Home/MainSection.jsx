@@ -18,7 +18,7 @@ function MainSection() {
                 вартості. Це косметика для домашнього використання, яка
                 забезпечує салонний догляд.
           </p>
-          <CatalogBtn description='Каталог' className='button'/>
+          <CatalogBtn to='/catalog' description='Каталог' className='button'/>
             </div>
             </div>
   );

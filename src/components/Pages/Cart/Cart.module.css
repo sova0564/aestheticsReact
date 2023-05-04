@@ -1,0 +1,130 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.wrapList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.numberLink {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #4b6049;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 49px;
+  font-family: "Poiret One", cursive;
+}
+
+.title {
+  font-family: "Poiret One", cursive;
+  font-size: 40px;
+  line-height: 49px;
+  color: #484847;
+  font-weight: 400;
+  margin: 55px 0 20px 0;
+  user-select: none;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
+
+.listItem {
+  font-family: "Poiret One", cursive;
+  font-size: 26px;
+  line-height: 32px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.wrapScroll {
+  border-top: 0.5px solid #4b6049;
+  overflow-y: scroll;
+  height: 330px;
+}
+
+.wrapCartProducts {
+  margin-bottom: 50px;
+}
+
+.wrapCartProduct {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 860px;
+  border-bottom: 0.5px solid #4b6049;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+}
+
+.titleProduct {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  line-height: 24px;
+  color: #484847;
+  width: 240px;
+  text-align: left;
+}
+
+.input {
+  width: 52px;
+  height: 40px;
+  border: 1px solid #484847;
+  color: #484847;
+  font-family: "Poiret One", cursive;
+  font-size: 26px;
+  padding: 5px 17px;
+}
+
+.price {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  line-height: 24px;
+  color: #484847;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  border: 1px solid #4b6049;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  color: #4b6049;
+}
+
+.textPrice {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  line-height: 100%;
+  color: #000000;
+  text-align: right;
+}
+
+.wrapButton {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 50px;
+}
